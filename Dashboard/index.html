@@ -5,9 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Finance Dashboard</title>
     <link rel="stylesheet" href="./css/styles.css" />
-  <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>  
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
     <script defer src="js/chart.js"></script>
     <script defer src="js/sidebar.js"></script>
@@ -18,7 +16,6 @@
             <button id="toggle-btn-close">X</button>
       <div class="sidebar-header">
  </button>
-
         <img id="sidebar-logo" src="./assets/icons/gallery.png" alt="Logo" />
       </div>
       <nav class="menu">
@@ -48,9 +45,9 @@
               ><img src="./assets/icons/info-circle.png" /> Settings</a
             >
           </li>
-          <li class="extra-gap"></li>
         </ul>
-        <ul class="menu-bottom">
+        <div class="menu-bottom">
+        <ul>
           <li>
             <a href="#"><img src="./assets/icons/info-circle.png" /> Help</a>
           </li>
@@ -58,6 +55,7 @@
             <a href="#"><img src="./assets/icons/login.png" /> Logout</a>
           </li>
         </ul>
+        </div>
       </nav>
     </aside>
     <div class="main" id="main">
@@ -69,9 +67,15 @@
             <input type="text" name="search" id="search" placeholder="Search here..." class="search-input"/>
           </div>
           <div class="navbar">
-          <div class="images"><img src="./assets/icons/notification-bing.png" alt="Notification" class="icons" />
-          <img  src="./assets/icons/message-text.png" alt="Notification" class="icons"/>
-          <img src="./assets/icons/gallery.png" alt="Notification" class="icon1"/>
+          <div class="images">
+            <div class="nav-icon-container1">
+            <img class="nav-icon1" src="./assets/icons/notification-bing.png" alt="Notification" class="icons" />
+          </div>
+          <div class="nav-icon-container1">
+
+            <img  class="nav-icon2" src="./assets/icons/message-text.png" alt="Notification" class="icons"/>
+          
+          </div><img src="./assets/icons/gallery.png" alt="Notification" class="icon1"/>
         </div>
           <span class="personalInfo">Marie Karitani <i class="fa fa-angle-down" aria-hidden="true"></i></span>
           </div>
@@ -193,7 +197,7 @@
             <div class="content-container">
             <section class="saving-plan">
             <h3>Recent Transaction <span>See All</span></h3>
-          <hr />
+          <div class="saving-card"><hr /></div>  
         <div class="transaction-item">
             <div class="transaction-left">
                 <div class="transaction-icon"><img src="./assets//icons/gallery.png" alt=""></div>
