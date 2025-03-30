@@ -457,3 +457,62 @@ hr {
   font-weight: 600;
   color: #3bbb6e;
 }
+/* chartcss */
+
+.chart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.legend-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.legend-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.blue {
+  background-color: #4745a4;
+}
+
+.yellow {
+  background-color: #f9ba33;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-right: 20px;
+}
+.toggle-btn {
+  padding: 5px 10px;
+  border: none;
+  background-color: #eee;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.dropdown {
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #7c7c7c;
+  border: #7c7c7c solid 1px;
+}
