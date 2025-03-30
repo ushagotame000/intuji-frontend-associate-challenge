@@ -245,7 +245,7 @@ hr {
 
 .content-container {
   background-color: #fff;
-  border-radius: 12px;
+  border-radius: 14px;
   transition: box-shadow 0.3s, transform 0.3s;
 }
 .content-container:hover {
