@@ -516,3 +516,54 @@ hr {
   color: #7c7c7c;
   border: #7c7c7c solid 1px;
 }
+/* transaction */
+.transaction-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 10px;
+}
+.transaction-item:last-child {
+  border-bottom: none;
+}
+.transaction-left {
+  display: flex;
+  align-items: center;
+}
+.transaction-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  margin-right: 10px;
+}
+.transaction-details {
+  font-size: 14px;
+  color: #555;
+}
+.transaction-name {
+  font-weight: 600;
+  color: #0d163a;
+  font-size: 18px;
+}
+.transaction-date {
+  font-size: 12px;
+  color: #888;
+}
+.transaction-right {
+  text-align: right;
+}
+.transaction-amount {
+  font-weight: 600;
+  font-size: 18px;
+  color: #0d163a;
+}
+.transaction-status {
+  font-size: 12px;
+  font-weight: 500;
+  color: #3bbb6e;
+}
